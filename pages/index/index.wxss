@@ -1,0 +1,60 @@
+/* pages/index/index.wxss */
+.share-cover{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 101;
+}
+.share-pic-box{
+  width: 670rpx;
+  left: 50%;
+  height: 300rpx;
+  margin-left: -335rpx;
+  top: 120rpx;
+  position: relative;
+}
+.share-pic{
+  width: 670rpx;
+  height: 744rpx;
+  border-radius: 12rpx;
+  background: #fff;
+  margin-bottom: 40rpx;
+  overflow: hidden;
+}
+.share-tips{
+  width: 566rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #fff;
+  background: #2ca2ed;
+  border-radius: 12rpx; 
+}
+.close-share{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: -25rpx;
+  right: -25rpx;
+  border-radius: 50%;
+  z-index: 101;
+  background-color: #fff;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASBAMAAACk4JNkAAAALVBMVEUAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMFCKs1AAAADnRSTlMAAwGYnKilo/Tpjn6RhfLwgGgAAAB3SURBVAjXY7hxiAEEhLsZ+p4oABmMcS8Z7N45AVmi714xiL8DCjLGvTNiYKx75wQUeqzAABJUBAkxgARdwUIgwXcgIbAgVAik8QmEJQqUdYIKmYEFQWYp5gEFIcaLAQUhxjOCBP3AZokBXdAHMgso+JJh5yKoSwHamjhPbLDp2gAAAABJRU5ErkJggg==);
+  background-size: 18rpx 18rpx;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sharePic{
+  width: 670rpx;
+  height: 744rpx;
+}
+.canvas{
+  width: 1340rpx;
+  height: 1488rpx;
+  position: fixed;
+  top: -1000000rpx;
+}

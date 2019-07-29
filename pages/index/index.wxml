@@ -1,0 +1,20 @@
+<!--利用canvas画海报-->
+
+<button bindtap='showPic'>点击生成海报</button>
+
+<!-- 分享 S -->
+<view class="share-cover" wx:if="{{showSharePic}}" catchtouchmove='true'>
+  <view class="share-pic-box">
+    <view class="share-pic">
+      <image src="{{sharePicUrl}}" class="sharePic"></image>
+    </view>
+    <button class="share-tips" catchtap='savePic'>保存图片</button>
+    <view class="close-share" catchtap='closeShare'></view>
+  </view>
+</view>
+<!-- 分享 E -->
+
+<!-- canvas S -->
+<canvas canvas-id="shareFrends" class="canvas"></canvas>
+<!-- canvas E -->
+
